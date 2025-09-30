@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Main {
+
+ }
+
+ class Game {
+    -int maxFields
+    -String name
+    -ArrayList<Player> players
+    +Game()
+    +void registerPlayers()
+    +String toString()
+
+ }
+ class Player {
+  -String name
+  Player()
+  String toString()
+ }
+
+ Game *-- Player
+Main -- Game
+
+@enduml
