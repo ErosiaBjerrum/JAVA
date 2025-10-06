@@ -5,9 +5,10 @@ public class Room {
     private int numberOfWindows;
 
     // contructor
+
     public Room(int numberOfLamps, int numberOfWindows) {
-    this.numberOfLamps = numberOfLamps;
-    this.numberOfWindows = numberOfWindows;
+        this.numberOfLamps = numberOfLamps;
+        this.numberOfWindows = numberOfWindows;
     }
 
     // getters

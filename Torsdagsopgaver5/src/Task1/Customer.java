@@ -13,7 +13,7 @@ public class Customer {
         this.lastName = lastName;
         this.userName = userName;
         counter++;
-        int id = counter;
+        this.id = counter;
     }
 
     // setter methods
@@ -35,6 +35,6 @@ public class Customer {
     // toString method
     @Override
     public String toString(){
-    return "Kunden hedder " + this.firstName + " " + this.lastName + " og har brugernavnet " + this.userName + ".";
+    return "Kunden med id " + this.id + " hedder " + this.firstName + " " + this.lastName + " og har brugernavnet " + this.userName + ".";
     }
 }
