@@ -1,1 +1,4 @@
-Espresso.............50 kr.Portvin.............60 kr.Pingus.............8000 kr.Cognac.............80 kr.Vin.............80 kr.ty.............34 kr.
+name, price, alcPer, sizeInCL
+Porter, 35.0, 4.6, 33.0
+piller, 34.0, 35.0, 5.0
+irsk kaffe, 80.0, 15.0, 25.0
