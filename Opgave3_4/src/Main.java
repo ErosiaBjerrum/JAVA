@@ -23,7 +23,7 @@ public class Main {
                     System.out.println(line);
                 }
                 fileScanner.close();
-            } catch (FileNotFoundException e) {
+            } catch (FileNotFoundException fnfe) {
                 System.out.println("Prøv igen.");
             }
         }
